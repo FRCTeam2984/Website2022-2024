@@ -8,4 +8,12 @@ https://docs.google.com/spreadsheets/d/1ZhlziMwT1XjOIFXh9wTq-_tbYFafJVlFYK_fXgxv
 - all sponsors page
 - calendar page
 - google calendar integration
-- lots more stuff that i don't want to write rn
+- lots more stuff that i don't want to write rn (shut up aram, i gotchu)
+
+The stuff aram didn't want to right down at that particular moment:
+- Fix waves going all funky during phone and tablet mode
+- responsivity in general
+- Styling up joining page
+- Stylign up header buttons
+- Integrating the links at the bottom of the home page
+- Making a better boat in pixelart or vector art (prob vector art)

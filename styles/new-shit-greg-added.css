@@ -1,0 +1,98 @@
+.xlh {
+   color:black;
+   font-weight: bold;
+   font-size:60px;
+   text-align: left;
+   margin:0;
+   /* word-spacing: -12px;
+   letter-spacing:-4px; */
+}
+.lh {
+   color:black;
+   font-weight: bold;
+   font-size: 40px;
+   text-align: left;
+   margin:0;
+}
+.h {
+   color:black;
+   font-weight: bold;
+   font-size: 34px;
+   text-align: left;
+   margin:0;
+}
+.lt {
+   color:black;
+   font-size: 24px;
+   margin:0;
+}
+.t {
+   font-family: 'Lexend Deca', sans-serif;
+   font-size:18px;
+   margin:0;
+   color:black;
+}
+.st { 
+   font-size:16px;
+   margin:0;
+}
+
+.line {
+   border-width:0;
+   border-radius:12px;
+   padding:0px;
+   margin-top:20px;
+   margin-bottom:20px;
+   width:100%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line.red {
+   background-color:#f34141;
+   height:4px;
+}
+.line.blue {
+   background-color:#5da9f0;
+   height:4px;
+}
+.line.pink {
+   background-color:#cd63f7;
+   height:4px;
+}
+.line.yellow {
+  background-color:#fcdd56;
+  height:4px;
+}
+
+.center-container {
+   margin: auto;
+   width: 70%;
+   padding: 10px;
+}
+
+.funky-button{
+   border-width:0;
+   border-radius:12px;
+   padding:14px;
+   background:#f34141;
+   color:white;
+   transition:0.2s;
+   margin-right:20px;
+   margin-left:20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.funky-button:hover{
+   transform:rotate(5deg) scale(1.2, 1.2);
+}
+
+.footer-gerg {
+   width:100%;
+   background: rgb(1,88,113);
+   background: linear-gradient(0deg, rgba(1,88,113,0.4) 0%, rgba(255,255,255,0) 100%);
+   text-align:center;
+   padding:80px;
+}
+.white {
+   color:white;
+}

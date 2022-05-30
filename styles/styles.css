@@ -8,6 +8,7 @@ body {
 	font-family: 'Lexend Deca', sans-serif;
 }
 
+
 .navbar {
 	border-bottom: 1px solid gainsboro;
 }
@@ -49,6 +50,13 @@ a.navbar-item:hover {
 	background-color: white;
 }
 
+.wave-bottom-gradient {
+   width:100%;
+   height:40%;
+   position:absolute;
+   top:100%;
+   background: linear-gradient(#015871 0%, rgba(255,255,255,0) 100%);
+}
 
 .home-hero {
 	margin-top: -55px;
