@@ -24,3 +24,23 @@ $(document).ready(function() {
 	});
 	*/
 });
+
+
+const readMore = document.getElementById("read-more");
+$(document).ready(() => {resizeReadMore()});
+$(window).scroll(() => {resizeReadMore()});
+// $(window).resize(() => {resizeReadMore()});
+
+function resizeReadMore() {
+   const a = document.body.scrollTop;
+   const b = document.body.scrollHeight - document.body.clientHeight;
+   console.log(document.body.scrollTop)
+   const c = a / b;
+	if (b === 0 || c > 0.4) {
+      // readMore.style.display = "none";
+      readMore.style.opacity = 0;
+   } else {
+      // readMore.style.display = "inherit";
+      readMore.style.opacity = 1;
+   }
+}
