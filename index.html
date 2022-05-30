@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="./images/logo-svg.svg">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+		<link href="./styles/styles.css" rel="stylesheet">
+
+		<title>Vikings Robotics</title>
+	</head>
+	<body>
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+		  <div class="navbar-brand">
+		    <a class="navbar-item" href="index.html">
+		      <img src="./images/logo-svg.svg" width="100" height="50">
+		      <span class="navbar-logo-text" style="font-weight: 700;">Vikings Robotics</span>
+		    </a>
+
+		    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+			  <span aria-hidden="true"></span>
+			  <span aria-hidden="true"></span>
+			  <span aria-hidden="true"></span>
+			</a>
+		  </div>
+
+		  <div id="navbarBasicExample" class="navbar-menu">
+		    <div class="navbar-end">
+		      <a class="navbar-item join-link" href="join.html">
+		        Join
+		      </>
+
+		      <a class="navbar-item sponsor-link" href="sponsors.html">
+		        Sponsors
+		      </a>
+
+	       	  <a class="navbar-item" href="resources.html">
+		        Resources
+		      </a>
+
+		      <a class="navbar-item" href="calendar.html">
+		        Calendar
+		      </a>
+		  </div>
+		</nav>
+
+		<section class="hero home-hero is-danger is-fullheight">
+		  <div class="hero-body">
+		    <div class="">
+		      <p class="title">
+		        Team 2984
+		      </p>
+		      <p class="subtitle">
+		        Vikings Robotics &#183; LJHS
+		      </p>
+		    </div>
+		  </div>
+
+		  <div class="wave-container">
+		    <div class="wave"></div>
+			<div class="wave"></div>
+
+			<!--
+  		  	<div style="background: #a2c4c9;"class="ship">
+		  		<img width="350"src="images/ship-final2.svg">
+		  	</div>
+		  	-->
+		  </div>
+		</section>
+
+		<section class="hero has-background-white-bis is-small is-link">
+		  <div class="hero-body">
+		  	<br>
+		    <p class="title has-text-black frc-hero-title">
+		      Our Mission
+		    </p>
+		    <br>
+		    <p class="subtitle  frc-hero-text has-text-black">
+		      Vikings Robotics support the building of real world skills, instilling an appreciation for STEM fields in our members as well as giving back to the community through our outreach programs with local schools and groups.
+		    </p>
+		  </div>
+		</section>
+
+		<section class="hero has-background-white-bis is-medium is-link">
+		  <div class="hero-body">
+		    <p class="title has-text-black frc-hero-title">
+		      First Robotics Competition
+		    </p>
+		    <br>
+		    <p class="subtitle  frc-hero-text has-text-black">
+		      Every year we participate in the <a class="has-text-danger" href=
+		      "https://www.firstinspires.org/robotics/frc">FIRST Robotics Competition</a>, in which teams have 6 weeks to design and build a robot that competes in a sport-like event. At the end of the build season we attend regional competitions with teams from around the world in San Diego. At the 2018 San Diego Regional, we competed with teams from Chile, Denmark, Netherlands and Brazil.
+		    </p>
+		  </div>
+		</section>
+
+		<section id="sponsor-hero" class="hero has-background-white is-success is-halfheight">
+		  <div class="hero-body">
+		    <div class="sponsor-title-container">
+		      <p class="title has-text-black">
+		        Our Sponsors
+		      </p>
+		    </div>
+		  </div>
+
+		  <div class="sponsor-container">
+		      <div class="sponsor-images">
+			      <img width="150" height="150" src="images/nasa.png">
+			      <img src="images/qualcomm.png">
+			      <img src="images/lockheed.png">
+			  </div>
+		  </div>
+
+		  <div class="sponsor-link-container">
+		  	<button class="has-text-black sponsor-hero-link" onclick="location.href = 'sponsors.html'">See All Sponsors</button>
+	      	<button class="has-text-black sponsor-hero-link">Become A Sponsor</button>
+	      </div>
+		</section>
+
+		<footer class="footer first-footer">
+		  <div class="content has-text-centered">
+		  	<div class="footer-contact">
+		  		<h3>Contact Us</h3>
+		  		<p>750 Nautilus St., La Jolla, CA 92037<br>ljhsvikingrobotics@gmail.com</p>
+		  	</div>
+
+		  	<div class="footer-join">
+		  		<h3>Join Us</h3>
+		  		<a><img class="discord-icon" src="images/discord-blue.svg"></a>
+		  		<a><img class="github-icon" src="images/github.svg"></a>
+		  	</div>
+			
+			<div class="footer-support">
+		  		<h3>Support Us</h3>
+		  		<a href="https://www.foundationofljhs.com/donate-to-academics.html#roboticsteam">Donate</a>
+		  	</div>
+		  </div>
+		</footer>
+
+		<footer class="footer second-footer">
+		  <div class="content has-text-centered">
+			<h5 class="footer-copyright">&copy; 2022 Vikings Robotics</h5>
+		  </div>
+		</footer>
+
+
+		<script src="https://code.jquery.com/jquery-3.6.0.js"integrity=" sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<script src="./src/script.js"></script>
+	</body>
+</html>
