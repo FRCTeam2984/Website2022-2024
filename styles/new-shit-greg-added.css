@@ -87,6 +87,7 @@
 }
 
 .footer-gerg {
+   bottom:0%;
    width:100%;
    background: rgb(1,88,113);
    background: linear-gradient(0deg, rgba(1,88,113,0.4) 0%, rgba(255,255,255,0) 100%);

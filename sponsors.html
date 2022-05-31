@@ -1,76 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="icon" href="./images/logo-svg.svg">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-		<link href="./styles/styles.css" rel="stylesheet">
-
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Lexend+Deca:wght@400;500&family=Outfit:wght@200;300&family=Roboto+Mono:wght@180;700&family=Schoolbell&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+      <link href="./styles/styles.css" rel="stylesheet">
+      <link href="./styles/new-shit-greg-added.css" rel="stylesheet">
+      <!-- NONE OF THESE FONTS ARE ASS -->
+      <!-- 
+      font-family: 'Chelsea Market', cursive;
+      font-family: 'Lexend Deca', sans-serif;
+      font-family: 'Outfit', sans-serif;
+      font-family: 'Roboto Mono', monospace;
+      font-family: 'Schoolbell', cursive;
+      font-family: 'Space Grotesk', sans-serif;
+       -->
 		<title>Sponsors | Vikings Robotics</title>
 	</head>
 	<body>
 		<nav class="navbar" role="navigation" aria-label="main navigation">
-		  <div class="navbar-brand">
-		    <a class="navbar-item" href="index.html">
-		      <img src="./images/logo-svg.svg" width="100" height="50">
-		      <span class="navbar-logo-text">Vikings Robotics</span>
-		    </a>
+         <div class="navbar-brand">
+           <a class="navbar-item" href="index.html">
+             <img src="./images/logo-svg.svg" width="100" height="50">
+             <span class="navbar-logo-text" style="font-weight: 700;">Vikings Robotics</span>
+           </a>
+ 
+           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+          </div>
+ 
+          <div id="navbarBasicExample" class="navbar-menu">
+             <div class="navbar-end">
+                <a class="navbar-item join-link" href="join.html">
+                Join
+                </a>
+ 
+                <a class="navbar-item sponsor-link" href="sponsors.html">
+                Sponsors
+                </a>
+ 
+                <a class="navbar-item" href="resources.html">
+                Resources
+                </a>
+ 
+                <a class="navbar-item" href="calendar.html">
+                Calendar
+                </a>
+             </div>
+          </div>
+       </nav>
+       <div style = "padding:60px;"></div>
+         <div class = "center-container">
+            <p class="lh">
+               A Huge Thanks to Our Sponsors!
+            </p>
+            <div class = "line red"></div>
+            <p class="t">
+               Most of our funding is recived through sponsors. 
+               Without them our team would be unable to engage in robotics competitions and the tools to do so. 
+               If you are thinking about sponsoring our team, you can do it through donating money or tools.
+            </p>
+            <div style = "padding:30px;"></div>
+            <div class="sponsor-container">
+               <div class="sponsor-images">
+                  <img width="100" height="100" src="images/nasa.png" style="margin-right:40px;">
+                  <img src="images/qualcomm.png" style="margin-right:30px;">
+                  <img src="images/lockheed.png" style="margin-right:30px;">
+               </div>
+            </div>
 
-		    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-			  <span aria-hidden="true"></span>
-			  <span aria-hidden="true"></span>
-			  <span aria-hidden="true"></span>
-			</a>
-		  </div>
+            <div class="sponsor-link-container">
+               <button class="t funky-button">Become A Sponsor</button>
+            </div>
+      </div>
+   
+      <div class = "footer-gerg">
+         <div class = "center-container" style="width:90%;display:inline-flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between; gap: 10px;">
+            
+            <div style="padding:10px;text-align:center;">
+               <p class = "lt"><b>Contact Us:</b></p>
+               <p class = "t">750 Nautilus St., La Jolla, CA 92037<br>ljhsvikingrobotics@gmail.com</p>
+            </div>
 
-		  <div id="navbarBasicExample" class="navbar-menu">
-		    <div class="navbar-end">
-		      <a class="navbar-item" href="join.html">
-		        Join
-		      </a>
-
-		      <a class="navbar-item current" href="sponsors.html">
-		        Sponsors
-		      </a>
-
-	       	  <a class="navbar-item" href="resources.html">
-		        Resources
-		      </a>
-
-		      <a class="navbar-item" href="calendar.html">
-		        Calendar
-		      </a>
-		  </div>
-		</nav>
-
-		<footer class="footer first-footer">
-		  <div class="content has-text-centered">
-		  	<div class="footer-contact">
-		  		<h3>Contact Us</h3>
-		  		<p>750 Nautilus St., La Jolla, CA 92037<br>ljhsvikingrobotics@gmail.com</p>
-		  	</div>
-
-		  	<div class="footer-join">
-		  		<h3>Join Us</h3>
-		  		<a><img class="discord-icon" src="images/discord-blue.svg"></a>
-		  		<a><img class="github-icon" src="images/github.svg"></a>
-		  	</div>
-			
-			<div class="footer-support">
-		  		<h3>Support Us</h3>
-		  		<a href="https://www.foundationofljhs.com/donate-to-academics.html#roboticsteam">Donate</a>
-		  	</div>
-		  </div>
-		</footer>
-
-		<footer class="footer second-footer">
-		  <div class="content has-text-centered">
-			<h5 class="footer-copyright">&copy; 2022 Vikings Robotics</h5>
-		  </div>
-		</footer>
-
+            <div style="padding:10px;text-align:center;">
+               <p class = "lt"><b>Join Us:</b></p>
+               <a><img class="discord-icon" src="images/discord-blue.svg"></a>
+               <a><img class="github-icon" src="images/github.svg"></a>
+            </div>
+            
+            <div style="padding:10px;text-align:center;">
+               <p class = "lt"><b>Support Us:</b></p>
+               <a  class = "t" href="https://www.foundationofljhs.com/donate-to-academics.html#roboticsteam">Donate</a>
+               <p  class = "t" class="footer-copyright">2022 Vikings Robotics</p>
+            </div>
+         </div>
+      </div>
 		<script src="https://code.jquery.com/jquery-3.6.0.js"integrity=" sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 		<script src="./src/script.js"></script>
 	</body>
