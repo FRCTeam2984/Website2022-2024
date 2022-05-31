@@ -27,15 +27,16 @@ $(document).ready(function() {
 
 
 const readMore = document.getElementById("read-more");
+$(document.body).on('touchmove', () => {resizeReadMore()});
 $(document).ready(() => {resizeReadMore()});
 $(window).scroll(() => {resizeReadMore()});
-// $(window).resize(() => {resizeReadMore()});
+$(window).resize(() => {resizeReadMore()});
 
 function resizeReadMore() {
    const a = document.body.scrollTop;
    const b = document.body.scrollHeight - document.body.clientHeight;
-   console.log(document.body.scrollTop)
    const c = a / b;
+   console.log(a);
 	if (b === 0 || c > 0.4) {
       // readMore.style.display = "none";
       readMore.style.opacity = 0;
