@@ -77,6 +77,7 @@ a.navbar-item:hover {
   bottom: 0;
   left: 0;
   background: #015871;
+  overflow-x: clip;
 }
 
 .wave {
