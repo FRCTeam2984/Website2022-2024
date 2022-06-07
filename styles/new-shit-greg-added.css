@@ -25,18 +25,20 @@
 }
 .lt {
    color:black;
-   font-size: 24px;
+   font-size: 28px;
    margin:0;
 }
 .t {
    font-family: 'Space Grotesk', sans-serif;
-   font-size:18px;
+   font-size:20px;
    margin:0;
    color:black;
 }
 .st { 
+   font-family: 'Space Grotesk', sans-serif;
    font-size:16px;
    margin:0;
+   color:black;
 }
 @media screen and (max-width:1400px) {
    .xlh {
@@ -49,13 +51,13 @@
       font-size:27px;
    }
    .lt {
-      font-size:19px;
+      font-size:21px;
    }
    .t {
-      font-size:14px;
+      font-size:19px;
    }
    .st {
-      font-size:12px;
+      font-size:16px;
    }
 }
 .line {
@@ -173,13 +175,13 @@
    transition:0.3s;
 }
 .topbar-burger:hover {
-   transform: scale(1.2, 1.2) rotate(180deg);
+   transform: scale(1.2, 1.2);
 }
 .topbar-burger:active {
-   transform: scale(0.5, 0.5) rotate(180deg);
+   transform: scale(0.7, 0.7);
 }
 .top-button {
-   font-family: 'Space Grotesk', sans-serif;
+   font-family: 'Outfit', sans-serif;
    font-weight:bold;
    text-align:center;
    text-decoration:none;
@@ -197,6 +199,8 @@
    opacity:1;
 }
 .topbar-dropdown {
+   background:white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    display:flex;
    align-items: center;
    flex-direction: column;

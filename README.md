@@ -1,6 +1,21 @@
 # VikingsRoboticsWebsite
 The new robotics website
 
+STUFF THAT NEEDS TO BE DONE BY WEDNSDAY:
+- FOOTER FIX + RESPONSIVENESS
+- STYLIN UP THE JOIN PAGE AND THE LINKS ON IT
+- FIX SCROLL BUTTON (GREG)
+- FIGURE OUT HOW TO HOST IT ON GITHUB WITH DOMAIN
+- CLOSE OUT CALENDER PAGE
+- MAKE SURE LINKS LEAD TO RIGHT PLACES (ARAM PLS DO THIS)
+- CHECK IF WEBSITE WORKS ON PHONE (BOTH ARAM AND GREG)
+- PUBLISH THE SITE
+
+Stuff to do after wednsday and in summer:
+- seemless trnasitions between webpages
+- google calender integration
+- boat in waves
+
 IMPORTANT NEW NOTES:
 - dropdown header is not working righ now but ill fix it later
 - footer and headers are dynamically loaded from their own .html documents

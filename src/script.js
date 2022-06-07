@@ -1,33 +1,16 @@
 "use strict";
 
-$(document).ready(function() {
-   console.log($("#dropdown").style.display);
-   $(document).on('click','.topbar-burger', function(e) {
-      console.log('hi!');
-      if ($(".topbar-dropdown").style.display === "none") {
-         $(".topbar-dropdown").style.display = "flex";
-       } else {
-         $(".topbar-dropdown").style.display = "none";
-       }
-    });
-	/*
-	$(".join-link").on("click", function(event) {
-		event.preventDefault();
-
-		$("html, body").animate({
-			scrollTop: $($(this).attr("href")).offset().top
-		}, 200)
-	});
-
-	$(".sponsor-link").on("click", function(event) {
-		event.preventDefault();
-
-		$("html, body").animate({
-			scrollTop: $($(this).attr("href")).offset().top
-		}, 200);
-	});
-   */
-});
+console.log(document.getElementById("dropdown").style.display);
+function toggleDropdown() {
+   console.log('hi!');
+   if (document.getElementById("dropdown").style.display === "none") {
+      console.log("shown")
+      document.getElementById("dropdown").style.display = "flex";
+      } else {
+      console.log("hidden")
+      document.getElementById("dropdown").style.display = "none";
+      }
+}
 
 
 const readMore = document.getElementById("read-more");
