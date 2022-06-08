@@ -251,11 +251,7 @@ a.navbar-item:hover {
 }
 
 .second-footer {
-  padding: 10px;
-}
-
-.join-link:hover {
-  opacity: 0.6;
+  padding: 100px;
 }
 
 .join-subheader {
