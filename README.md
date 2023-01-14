@@ -1,45 +1,30 @@
 # VikingsRoboticsWebsite
 The new robotics website
 
-STUFF THAT NEEDS TO BE DONE BY WEDNSDAY:
-- FOOTER FIX + RESPONSIVENESS
-- FIX SCROLL BUTTON (GREG)
-- FIGURE OUT HOW TO HOST IT ON GITHUB WITH DOMAIN
-- CHECK IF WEBSITE WORKS ON PHONE (BOTH ARAM AND GREG)
-- PUBLISH THE SITE
+Boat Animation:
+- Make boat svg
+- Put boat in the waves
+- Figure out how to rotate the boat based on the wave sine function (DERIVATIVES ahhh)
 
- STUFF FROM THE LIST ABOVE THAT IS DONE:
-- CLOSE OUT CALENDER PAGE
-- MAKE SURE LINKS LEAD TO RIGHT PLACES (ARAM PLS DO THIS)
-- STYLIN UP THE JOIN PAGE AND THE LINKS ON IT
+Google Calendar Integration:
+- Make the calendar button actually lead to a webpage
+- Either have an integrated goole calendar element or just a link to something
+- Do we want to also put our timeline for getting things done before the competition?
 
-Stuff to do after wednsday and in summer:
-- seemless trnasitions between webpages
-- google calender integration
-- boat in waves
+Responsivity:
+- Make sure the wave doesn't go off screen on mobile and tablet mode (Everything works on mobile in general)
+- Make sure the footer always stays at the bottom (I (Aram) haven't experienced this problem but it might still be there)
+- Fix the scroll button (again I haven't experienced this but Greg might have)
+- Good looking transitions between webpages
+- Responsive/animated dropdown menu for mobile
 
-IMPORTANT NEW NOTES:
-- dropdown header is not working righ now but ill fix it later
-- footer and headers are dynamically loaded from their own .html documents
+CSS General:
+- Make the buttons look "in place" on the website
+- Figure out how to combine the cleaner design with the box shadows and have it look good
+- Make the svg gmail and github logos change to actual colors on hover
+- What do we do with all of the empty space (maybe make the buttons inline)
+- Wave color looks weird when scrolling down
+- There probably is more stuff but this is the important stuff for now
 
-Most important stuff TO DO:
-- Make responsive drop down menu (greg)
-- Make waves responsive and not lead off of screen (aram pls do this)
-- make footer stay at bottom all the time
-
-To Do:
+Here is the old spreadsheet link for what we needed/need to get done?
 https://docs.google.com/spreadsheets/d/1ZhlziMwT1XjOIFXh9wTq-_tbYFafJVlFYK_fXgxvwRA/edit#gid=0
-
-- Add Boat animation on home page
-- all sponsors page
-- calendar page (I think we can probably wait to do this after thursday)
-- google calendar integration
-- lots more stuff that i don't want to write rn (shut up aram, i gotchu)
-
-The stuff aram didn't want to right down at that particular moment:
-- Fix waves going all funky during phone and tablet mode
-- responsivity in general
-- Styling up joining page
-- Styling up header buttons (I (GREG) can do this tmrw (5/31))
-- Integrating the links at the bottom of the home page
-- Making a better boat in pixelart or vector art (prob vector art)
