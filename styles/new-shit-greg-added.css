@@ -114,6 +114,19 @@
    color: white;
 }
 
+@media screen and (max-width: 600px) {
+   .funky-button {
+      display: inline-block;
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 375px) {
+   span.lt {
+      font-size: 0.9em;
+   }
+}
+
 .footer-container {
    padding:10px;
    padding-right:30px;
