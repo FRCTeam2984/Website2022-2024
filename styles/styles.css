@@ -297,3 +297,16 @@ a.navbar-item:hover {
    50% { transform: translate(-50%, -15px); }
    100% { transform: translate(-50%, 0px); }
 }
+
+@media only screen and (max-width: 600px) {
+  .custom-button-aram {
+    border: 100px solid green;
+  }
+}
+
+
+/*
+Greg Numbers
+- 0.6 when standing up
+- 0.8 when laying down
+*/
