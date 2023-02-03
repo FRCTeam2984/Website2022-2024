@@ -1,16 +1,21 @@
 "use strict";
 
-console.log(document.getElementById("dropdown").style.display);
-function toggleDropdown() {
-   console.log('hi!');
-   if (document.getElementById("dropdown").style.display === "none") {
-      console.log("shown")
-      document.getElementById("dropdown").style.display = "flex";
-      } else {
-      console.log("hidden")
-      document.getElementById("dropdown").style.display = "none";
-      }
+try {
+   console.log(document.getElementById("dropdown").style.display);
+   function toggleDropdown() {
+      console.log('hi!');
+      if (document.getElementById("dropdown").style.display === "none") {
+         console.log("shown")
+         document.getElementById("dropdown").style.display = "flex";
+         } else {
+         console.log("hidden")
+         document.getElementById("dropdown").style.display = "none";
+         }
+   }
+} catch(err) {
+   console.log(err)
 }
+
 
 
 // const readMore = document.getElementById("read-more");
