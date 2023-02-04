@@ -6,11 +6,6 @@ Boat Animation:
 - Put boat in the waves
 - Figure out how to rotate the boat based on the wave sine function (DERIVATIVES ahhh)
 
-Google Calendar Integration:
-- Make the calendar button actually lead to a webpage
-- Either have an integrated goole calendar element or just a link to something
-- Do we want to also put our timeline for getting things done before the competition?
-
 Responsivity:
 - Make sure the wave doesn't go off screen on mobile and tablet mode (Everything works on mobile in general)
 - Make sure the footer always stays at the bottom (I (Aram) haven't experienced this problem but it might still be there)
