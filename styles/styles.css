@@ -40,6 +40,37 @@ button:hover{
    padding: 5px;
 }
 
+.calendar-container {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) translateY(-45px);
+}
+
+.mobile-message-container {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  opacity: 0;
+}
+
+/*
+.calendar-container iframe {
+  filter: invert(0.9) saturate(2) hue-rotate(145deg);
+}
+*/
+
+.calendar-footer {
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
 a.navbar-item {
    font-size: 1.3em;
 	transition: 0.2s ease all;
@@ -170,6 +201,18 @@ a.navbar-item:hover {
    .sponsor-image {
       margin-right:0;
       transform:scale(0.7, 0.7);
+   }
+
+   .calendar-container iframe {
+    opacity: 0;
+   }
+
+   .calendar-footer {
+    opacity: 0;
+   }
+
+   .mobile-message-container {
+    opacity: 1;
    }
 }
 .sponsor-images {
