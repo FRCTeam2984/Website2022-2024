@@ -15,11 +15,11 @@ function toggleDropdown() {
 
 const name_input = document.getElementById("name-input");
 const from_input = document.getElementById("from-input");
-const to_input = document.getElementById("to-input");
+const subject_input = document.getElementById("subject-input");
 const message_input = document.getElementById("message-input");
 const send_button = document.getElementById("send-btn");
 
-async function sendEmail(name, from, to, message){
+async function sendEmail(name, from, subject, message){
    try {
       await Email.send({
          // oooooops look like someone left our key here :(
@@ -27,7 +27,7 @@ async function sendEmail(name, from, to, message){
          To : 'ljhsvikingrobotics@gmail.com',
          From : "ljhsvikingrobotics@gmail.com",
          Subject : `Website Contact Message - ${name}`,
-         Body : "Name " + name + "<br> Email: " + from + "<br> Subject: " + to + "<br> Message: " + message
+         Body : "Name " + name + "<br> Email: " + from + "<br> Subject: " + subject + "<br> Message: " + message
       });
 
       alert("message sent successfully!");
@@ -38,7 +38,7 @@ async function sendEmail(name, from, to, message){
 
 
 send_button.addEventListener("click", () => {
-   sendEmail(name_input.value, from_input.value, to_input.value, message_input.value);
+   sendEmail(name_input.value, from_input.value, subject_input.value, message_input.value);
 });
 
 
