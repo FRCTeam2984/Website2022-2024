@@ -13,6 +13,33 @@ function toggleDropdown() {
       }
 }
 
+const name_input = document.getElementById("name-input");
+const from_input = document.getElementById("from-input");
+const to_input = document.getElementById("to-input");
+const message_input = document.getElementById("message-input");
+const send_button = document.getElementById("send-btn");
+
+async function sendEmail(name, from, to, message){
+   try {
+      await Email.send({
+         // oooooops look like someone left our key here :(
+         SecureToken : "24b99aa7-eaa7-4fff-a0af-8f85ae57f297",
+         To : 'ljhsvikingrobotics@gmail.com',
+         From : "ljhsvikingrobotics@gmail.com",
+         Subject : `Website Contact Message - ${name}`,
+         Body : "Name " + name + "<br> Email: " + from + "<br> Subject: " + to + "<br> Message: " + message
+      });
+
+      alert("message sent successfully!");
+   } catch (error) {
+      console.error(error);
+   }
+}
+
+
+send_button.addEventListener("click", () => {
+   sendEmail(name_input.value, from_input.value, to_input.value, message_input.value);
+});
 
 
 // const readMore = document.getElementById("read-more");
